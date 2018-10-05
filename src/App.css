@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+* {
+  box-sizing: border-box;
+}
+/*
+.margin-top50 {
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.credit {
+  margin-top: 100px;
+  margin-left: 70px;
+  height: 250px;
+  width: 400px;
+  border: 0;
+  border-radius: 10px;
+  background: url(http://www.psdgraphics.com/file/world-map-background.jpg) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+.credit__bank {
+  font-size: 24px;
+  font-weight: bold;
+}
+.credit__mc {
+  width: 80px;
+  float: right;
+}
+.credit__card-number {
+  height: 91px;
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+.credit__ccv {
+  height: 24px;
+  float: right;
+  margin-top: -10px;
+  text-transform: uppercase;
+}
+.credit__name, .credit__date {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  height: 25px;
+}
+.credit label {
+  color: #fff;
+}
+*/
+
+.floatRight{
+  width:100%; padding:0;
+}
+
+.ccDiv{
+  text-align: center;
+}
+
+.creditcard{
+  display: inline-block;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: darkgrey;
+  margin-bottom: 10px;
+}
